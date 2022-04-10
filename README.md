@@ -10,7 +10,7 @@ Esse projeto foi desenvolvido a partir do desafio 04 do curso Explorer da Rocket
 </p>
 
 
-##  :pencil2:	 objetivos
+##  :pencil2:	 Objetivos
 
 Os objetivos desse desafio foram fixar as técnicas e conhecimento adquirido ao longo das aulas em relação a:
 
