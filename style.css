@@ -1,0 +1,111 @@
+li,
+a{
+  
+  list-style: none;
+  text-decoration: none;
+}
+
+/*<---------------- variables ----------------------->*/
+:root{
+  --body-color: #2F2E41;
+  --text-color: #C2C2C2;
+  --title-color:#FFFFFF;
+  --title-color-second:#00BFA6;
+}
+
+/*<---------------- reusable ----------------------->*/
+body{
+  background-color: var(--body-color);
+}
+
+.container{
+  width: 1200px;
+}
+
+/*<------------------ nav -------------------------->*/
+.nav{
+  width: 67rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 4rem auto 6rem;
+ 
+}
+
+.nav ul{
+  display: flex;
+  align-items: center;
+  gap:4rem;
+}
+
+.nav li a{
+  color:var(--title-color);
+  font-family: "JetBrains Mono", sans-serif;
+}
+
+.nav li a:hover{
+  color: var(--title-color-second);
+  font-weight: bold;
+}
+
+/*<------------------ main ---------------------->*/
+main{
+  display: flex;
+  justify-content: space-between;
+  width: 68rem;
+  margin: auto;
+}
+
+/*<------------------ section ------------------->*/
+.text{
+  text-align: center;
+  width: 38rem;
+}
+
+.text span{
+  color:var(--title-color-second);
+  font-weight: bold;
+}
+
+.text h1{
+  font-size:2.25rem ;
+  font-family: "JetBrains Mono", sans-serif;
+  font-weight: bold;
+  line-height: 2.50rem;
+  margin-bottom: 3rem;
+}
+
+.text p{
+  font-size: 1rem;
+  font-family: "Open Sans", sans-serif;
+  color: var(--text-color);
+  line-height: 1.75rem;
+}
+
+/*<------------ footer -------------------->*/
+.line{
+  width: 35.50rem;
+  border: 1px solid var(--title-color-second);
+  margin: 9rem auto 1.68rem;
+}
+
+.footer{
+  color:var(--title-color);
+  font-family: "JetBrains Mono", sans-serif;
+  margin-bottom: 1.43rem;
+  font-size:0.875rem ;
+  text-align: center;
+  align-items: center;
+}
+
+.footer span a{
+  color:var(--title-color);
+  font-family: "JetBrains Mono", sans-serif;
+  font-size:0.875rem ;
+}
+
+.padlock{
+  position: fixed;
+  left:20px;
+  bottom:20px;
+}
